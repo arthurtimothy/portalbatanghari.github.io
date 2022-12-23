@@ -1,0 +1,2008 @@
+{
+  "theme": {
+    "name": "PlateauTheme",
+    "styles": [
+      "black",
+      "orange",
+      "default",
+      "medium-grey",
+      "dark-blue",
+      "esri-blue",
+      "dark-green",
+      "esri-green"
+    ],
+    "version": "2.25",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "https://geography-ui.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Profil Kabupaten Batang Hari",
+  "subtitle": "",
+  "keepAppState": true,
+  "logo": "images/logo.jpeg",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/PlateauTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        },
+        "version": "2.25",
+        "id": "themes_PlateauTheme_widgets_HeaderController_Widget_37",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 25,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.25",
+        "id": "widgets_Scalebar_Widget_38",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "visible": false,
+        "position": {
+          "left": 55,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.25",
+        "id": "widgets_Search_Widget_39",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "visible": false,
+        "position": {
+          "left": 200,
+          "bottom": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.25",
+        "id": "widgets_Coordinate_Widget_40",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "visible": false,
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.25",
+        "id": "widgets_OverviewMap_Widget_41",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.25",
+        "id": "widgets_HomeButton_Widget_42",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.25",
+        "id": "widgets_MyLocation_Widget_43",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "visible": false,
+        "version": "2.25",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "id": "widgets_AttributeTable_Widget_44",
+        "name": "AttributeTable"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.25",
+        "id": "widgets_Splash_Widget_45",
+        "name": "Splash",
+        "config": "configs/Splash/config_widgets_Splash_Widget_45.json"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.25",
+        "id": "widgets_ZoomSlider_Widget_46",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 149,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.25",
+        "id": "widgets_ExtentNavigate_Widget_47",
+        "name": "ExtentNavigate"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "60b217e621d341f396270001e49f740c",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "https://geography-ui.maps.arcgis.com",
+    "appProxy": {
+      "mapItemId": "3eee208e442448a9ab48beb7578e9155",
+      "proxyItems": []
+    },
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/PlateauTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.25",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 2
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.25",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 3
+      },
+      {
+        "name": "BasemapGallery",
+        "version": "2.25",
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_36.json",
+        "index": 4,
+        "id": "widgets_BasemapGallery_Widget_36"
+      },
+      {
+        "name": "Filter",
+        "version": "2.25",
+        "uri": "widgets/Filter/Widget",
+        "index": 6,
+        "id": "widgets_Filter_Widget_48"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/PlateauTheme/widgets/HeaderController/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 40,
+            "relativeTo": "browser"
+          },
+          "version": "2.25"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "visible": true,
+          "position": {
+            "left": 25,
+            "bottom": 25,
+            "relativeTo": "map"
+          },
+          "version": "2.25"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "visible": false,
+          "position": {
+            "left": 55,
+            "top": 5,
+            "relativeTo": "map"
+          },
+          "version": "2.25"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "visible": false,
+          "position": {
+            "left": 200,
+            "bottom": 20,
+            "relativeTo": "map"
+          },
+          "version": "2.25"
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "visible": false,
+          "position": {
+            "right": 0,
+            "bottom": 0,
+            "zIndex": 1
+          },
+          "version": "2.25"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "visible": true,
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 75,
+            "relativeTo": "map"
+          },
+          "version": "2.25"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "visible": true,
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 110,
+            "relativeTo": "map"
+          },
+          "version": "2.25"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "visible": false,
+          "version": "2.25",
+          "position": {
+            "relativeTo": "browser"
+          }
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.25"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "visible": true,
+          "position": {
+            "top": 5,
+            "left": 7,
+            "relativeTo": "map"
+          },
+          "version": "2.25"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "top": 149,
+            "left": 7
+          },
+          "version": 2.3
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 40,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/PlateauTheme/panels/FoldablePanel/Panel",
+        "position": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "zIndex": 5
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.25",
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  },
+  "appItemId": "d7a57556151547008572e707e50453eb",
+  "logoAlt": "",
+  "logoLink": "",
+  "_originConfig": {
+    "theme": {
+      "name": "PlateauTheme",
+      "styles": [
+        "black",
+        "orange",
+        "default",
+        "medium-grey",
+        "dark-blue",
+        "esri-blue",
+        "dark-green",
+        "esri-green"
+      ],
+      "version": "2.25",
+      "sharedTheme": {
+        "isPortalSupport": true,
+        "useHeader": false,
+        "useLogo": false
+      }
+    },
+    "portalUrl": "https://geography-ui.maps.arcgis.com/",
+    "appId": "",
+    "authorizedCrossOriginDomains": [],
+    "title": "Blok Migas Tahun 2019",
+    "subtitle": "",
+    "keepAppState": true,
+    "logo": "images/logo.png",
+    "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+    "links": [],
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/PlateauTheme/widgets/HeaderController/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 40,
+            "relativeTo": "browser"
+          },
+          "version": "2.25",
+          "id": "themes_PlateauTheme_widgets_HeaderController_Widget_37",
+          "name": "HeaderController",
+          "inPanel": false,
+          "isController": true,
+          "isThemeWidget": true,
+          "hasVersionManager": false,
+          "mirrorIconForRTL": false,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasConfig": true,
+          "hasUIFile": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "keepConfigAfterMapSwitched": true,
+          "supportMultiInstance": true,
+          "label": "Header Controller",
+          "manifest": {
+            "name": "HeaderController",
+            "label": "Header Controller",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "inPanel": false,
+              "isController": true,
+              "isThemeWidget": true,
+              "hasVersionManager": false,
+              "mirrorIconForRTL": false,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasConfig": true,
+              "hasUIFile": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "keepConfigAfterMapSwitched": true,
+              "supportMultiInstance": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/themes/PlateauTheme/widgets/HeaderController/",
+            "amdFolder": "themes/PlateauTheme/widgets/HeaderController/",
+            "url": "/webappbuilder/apps/6/themes/PlateauTheme/widgets/HeaderController/",
+            "i18nLabels": {
+              "en-us": "Header Controller"
+            },
+            "icon": "/webappbuilder/apps/6/themes/PlateauTheme/widgets/HeaderController/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/themes/PlateauTheme/widgets/HeaderController/images/thumbnail.png",
+            "support2D": true,
+            "support3D": true
+          },
+          "icon": "/webappbuilder/apps/6/themes/PlateauTheme/widgets/HeaderController/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/themes/PlateauTheme/widgets/HeaderController/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/themes/PlateauTheme/widgets/HeaderController/",
+          "amdFolder": "themes/PlateauTheme/widgets/HeaderController/",
+          "configFile": "themes/PlateauTheme/widgets/HeaderController/config.json",
+          "isDefaultConfig": true,
+          "config": {
+            "groupSetting": [
+              {
+                "label": "AttributeTable",
+                "type": "dropDown"
+              }
+            ]
+          },
+          "visible": true,
+          "isOnScreen": true,
+          "gid": "widgetOnScreen"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 25,
+            "bottom": 25,
+            "relativeTo": "map"
+          },
+          "version": "2.25",
+          "id": "widgets_Scalebar_Widget_38",
+          "name": "Scalebar",
+          "inPanel": false,
+          "hasUIFile": false,
+          "supportMultiInstance": false,
+          "hasVersionManager": true,
+          "isController": false,
+          "isThemeWidget": false,
+          "mirrorIconForRTL": false,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasConfig": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "keepConfigAfterMapSwitched": true,
+          "label": "Scalebar",
+          "manifest": {
+            "name": "Scalebar",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "inPanel": false,
+              "hasUIFile": false,
+              "supportMultiInstance": false,
+              "hasVersionManager": true,
+              "isController": false,
+              "isThemeWidget": false,
+              "mirrorIconForRTL": false,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasConfig": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "keepConfigAfterMapSwitched": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/Scalebar/",
+            "amdFolder": "widgets/Scalebar/",
+            "url": "/webappbuilder/apps/6/widgets/Scalebar/",
+            "i18nLabels": {
+              "en-us": "Scalebar"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/Scalebar/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/Scalebar/images/thumbnail.png",
+            "support2D": true,
+            "label": "Scalebar"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/Scalebar/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/Scalebar/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/Scalebar/",
+          "amdFolder": "widgets/Scalebar/",
+          "configFile": "widgets/Scalebar/config.json",
+          "isDefaultConfig": true,
+          "config": {
+            "scalebar": {
+              "scalebarStyle": "",
+              "scalebarUnit": "",
+              "decimalPlaces": 0,
+              "addSeparator": false
+            }
+          },
+          "visible": true,
+          "isOnScreen": true,
+          "gid": "widgetOnScreen"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "visible": false,
+          "position": {
+            "left": 55,
+            "top": 5,
+            "relativeTo": "map"
+          },
+          "version": "2.25",
+          "id": "widgets_Search_Widget_39",
+          "name": "Search",
+          "hasVersionManager": true,
+          "inPanel": false,
+          "isController": false,
+          "isThemeWidget": false,
+          "mirrorIconForRTL": false,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasConfig": true,
+          "hasUIFile": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "keepConfigAfterMapSwitched": true,
+          "supportMultiInstance": true,
+          "label": "Search",
+          "manifest": {
+            "name": "Search",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "hasVersionManager": true,
+              "inPanel": false,
+              "isController": false,
+              "isThemeWidget": false,
+              "mirrorIconForRTL": false,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasConfig": true,
+              "hasUIFile": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "keepConfigAfterMapSwitched": true,
+              "supportMultiInstance": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/Search/",
+            "amdFolder": "widgets/Search/",
+            "url": "/webappbuilder/apps/6/widgets/Search/",
+            "i18nLabels": {
+              "en-us": "Search"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/Search/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/Search/images/thumbnail.png",
+            "support2D": true,
+            "label": "Search"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/Search/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/Search/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/Search/",
+          "amdFolder": "widgets/Search/",
+          "configFile": "widgets/Search/config.json",
+          "isDefaultConfig": true,
+          "config": {
+            "allPlaceholder": "",
+            "showInfoWindowOnSelect": true,
+            "sources": []
+          },
+          "isOnScreen": true,
+          "gid": "widgetOnScreen"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "visible": false,
+          "position": {
+            "left": 200,
+            "bottom": 20,
+            "relativeTo": "map"
+          },
+          "version": "2.25",
+          "id": "widgets_Coordinate_Widget_40",
+          "name": "Coordinate",
+          "inPanel": false,
+          "keepConfigAfterMapSwitched": false,
+          "supportMultiInstance": false,
+          "hasVersionManager": true,
+          "isController": false,
+          "isThemeWidget": false,
+          "mirrorIconForRTL": false,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasConfig": true,
+          "hasUIFile": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "label": "Coordinate",
+          "manifest": {
+            "name": "Coordinate",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "inPanel": false,
+              "keepConfigAfterMapSwitched": false,
+              "supportMultiInstance": false,
+              "hasVersionManager": true,
+              "isController": false,
+              "isThemeWidget": false,
+              "mirrorIconForRTL": false,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasConfig": true,
+              "hasUIFile": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/Coordinate/",
+            "amdFolder": "widgets/Coordinate/",
+            "url": "/webappbuilder/apps/6/widgets/Coordinate/",
+            "i18nLabels": {
+              "en-us": "Coordinate"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/Coordinate/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/Coordinate/images/thumbnail.png",
+            "support2D": true,
+            "label": "Coordinate"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/Coordinate/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/Coordinate/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/Coordinate/",
+          "amdFolder": "widgets/Coordinate/",
+          "configFile": "widgets/Coordinate/config.json",
+          "isDefaultConfig": true,
+          "config": {
+            "spatialReferences": [],
+            "decimalPlaces": 3,
+            "addSeparator": true,
+            "displayOrderLonLat": true
+          },
+          "isOnScreen": true,
+          "gid": "widgetOnScreen"
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "visible": false,
+          "position": {
+            "right": 0,
+            "bottom": 0,
+            "zIndex": 1,
+            "relativeTo": "map"
+          },
+          "version": "2.25",
+          "id": "widgets_OverviewMap_Widget_41",
+          "name": "OverviewMap",
+          "inPanel": false,
+          "hasUIFile": false,
+          "hasStyle": false,
+          "supportMultiInstance": false,
+          "hasVersionManager": true,
+          "isController": false,
+          "isThemeWidget": false,
+          "mirrorIconForRTL": false,
+          "hasLocale": true,
+          "hasConfig": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "keepConfigAfterMapSwitched": true,
+          "label": "Overview Map",
+          "manifest": {
+            "name": "OverviewMap",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "inPanel": false,
+              "hasUIFile": false,
+              "hasStyle": false,
+              "supportMultiInstance": false,
+              "hasVersionManager": true,
+              "isController": false,
+              "isThemeWidget": false,
+              "mirrorIconForRTL": false,
+              "hasLocale": true,
+              "hasConfig": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "keepConfigAfterMapSwitched": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/OverviewMap/",
+            "amdFolder": "widgets/OverviewMap/",
+            "url": "/webappbuilder/apps/6/widgets/OverviewMap/",
+            "i18nLabels": {
+              "en-us": "Overview Map"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/OverviewMap/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/OverviewMap/images/thumbnail.png",
+            "support2D": true,
+            "label": "Overview Map"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/OverviewMap/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/OverviewMap/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/OverviewMap/",
+          "amdFolder": "widgets/OverviewMap/",
+          "configFile": "widgets/OverviewMap/config.json",
+          "isDefaultConfig": true,
+          "config": {
+            "overviewMap": {
+              "visible": false,
+              "baseLayer": {
+                "url": "",
+                "type": "baseMap"
+              }
+            }
+          },
+          "isOnScreen": true,
+          "gid": "widgetOnScreen"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "position": {
+            "left": 7,
+            "top": 75,
+            "relativeTo": "map"
+          },
+          "version": "2.25",
+          "id": "widgets_HomeButton_Widget_42",
+          "name": "HomeButton",
+          "inPanel": false,
+          "hasUIFile": false,
+          "hasConfig": false,
+          "supportMultiInstance": false,
+          "isController": false,
+          "isThemeWidget": false,
+          "hasVersionManager": false,
+          "mirrorIconForRTL": false,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "keepConfigAfterMapSwitched": true,
+          "label": "Home",
+          "manifest": {
+            "name": "HomeButton",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "inPanel": false,
+              "hasUIFile": false,
+              "hasConfig": false,
+              "supportMultiInstance": false,
+              "isController": false,
+              "isThemeWidget": false,
+              "hasVersionManager": false,
+              "mirrorIconForRTL": false,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "keepConfigAfterMapSwitched": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/HomeButton/",
+            "amdFolder": "widgets/HomeButton/",
+            "url": "/webappbuilder/apps/6/widgets/HomeButton/",
+            "i18nLabels": {
+              "en-us": "Home"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/HomeButton/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/HomeButton/images/thumbnail.png",
+            "support2D": true,
+            "label": "Home"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/HomeButton/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/HomeButton/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/HomeButton/",
+          "amdFolder": "widgets/HomeButton/",
+          "configFile": "widgets/HomeButton/config.json",
+          "isDefaultConfig": true,
+          "config": null,
+          "visible": true,
+          "isOnScreen": true,
+          "gid": "widgetOnScreen"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "position": {
+            "left": 7,
+            "top": 110,
+            "relativeTo": "map"
+          },
+          "version": "2.25",
+          "id": "widgets_MyLocation_Widget_43",
+          "name": "MyLocation",
+          "inPanel": false,
+          "hasUIFile": false,
+          "supportMultiInstance": false,
+          "isController": false,
+          "isThemeWidget": false,
+          "hasVersionManager": false,
+          "mirrorIconForRTL": false,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasConfig": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "keepConfigAfterMapSwitched": true,
+          "label": "My Location",
+          "manifest": {
+            "name": "MyLocation",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "inPanel": false,
+              "hasUIFile": false,
+              "supportMultiInstance": false,
+              "isController": false,
+              "isThemeWidget": false,
+              "hasVersionManager": false,
+              "mirrorIconForRTL": false,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasConfig": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "keepConfigAfterMapSwitched": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/MyLocation/",
+            "amdFolder": "widgets/MyLocation/",
+            "url": "/webappbuilder/apps/6/widgets/MyLocation/",
+            "i18nLabels": {
+              "en-us": "My Location"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/MyLocation/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/MyLocation/images/thumbnail.png",
+            "support2D": true,
+            "label": "My Location"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/MyLocation/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/MyLocation/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/MyLocation/",
+          "amdFolder": "widgets/MyLocation/",
+          "configFile": "widgets/MyLocation/config.json",
+          "isDefaultConfig": true,
+          "config": {
+            "locateButton": {
+              "geolocationOptions": {
+                "timeout": 15000
+              },
+              "highlightLocation": true,
+              "useTracking": true,
+              "scale": 50000
+            }
+          },
+          "visible": true,
+          "isOnScreen": true,
+          "gid": "widgetOnScreen"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "visible": false,
+          "version": "2.25",
+          "position": {
+            "relativeTo": "browser"
+          },
+          "id": "widgets_AttributeTable_Widget_44",
+          "name": "AttributeTable",
+          "inPanel": false,
+          "hasUIFile": false,
+          "hasConfig": true,
+          "keepConfigAfterMapSwitched": false,
+          "supportMultiInstance": false,
+          "hasVersionManager": true,
+          "isController": false,
+          "isThemeWidget": false,
+          "mirrorIconForRTL": false,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "label": "Attribute Table",
+          "manifest": {
+            "name": "AttributeTable",
+            "label": "Attribute Table",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "inPanel": false,
+              "hasUIFile": false,
+              "hasConfig": true,
+              "keepConfigAfterMapSwitched": false,
+              "supportMultiInstance": false,
+              "hasVersionManager": true,
+              "isController": false,
+              "isThemeWidget": false,
+              "mirrorIconForRTL": false,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true
+            },
+            "featureActions": [
+              {
+                "name": "ShowRelatedRecords",
+                "uri": "actions/ShowRelatedRecordsFeatureAction"
+              },
+              {
+                "name": "ViewInTable",
+                "uri": "actions/ViewInAttributeTableFeatureAction"
+              }
+            ],
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/AttributeTable/",
+            "amdFolder": "widgets/AttributeTable/",
+            "url": "/webappbuilder/apps/6/widgets/AttributeTable/",
+            "i18nLabels": {
+              "en-us": "Attribute Table"
+            },
+            "i18nLabels_featureAction_ShowRelatedRecords": {
+              "en-us": "Show related records"
+            },
+            "i18nLabels_featureAction_ViewInTable": {
+              "en-us": "View in Attribute Table"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/AttributeTable/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/AttributeTable/images/thumbnail.png",
+            "support2D": true
+          },
+          "featureActions": [
+            {
+              "name": "ShowRelatedRecords",
+              "uri": "actions/ShowRelatedRecordsFeatureAction"
+            },
+            {
+              "name": "ViewInTable",
+              "uri": "actions/ViewInAttributeTableFeatureAction"
+            }
+          ],
+          "icon": "/webappbuilder/apps/6/widgets/AttributeTable/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/AttributeTable/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/AttributeTable/",
+          "amdFolder": "widgets/AttributeTable/",
+          "configFile": "widgets/AttributeTable/config.json",
+          "isDefaultConfig": true,
+          "config": {
+            "layerInfos": [],
+            "table": {
+              "pageSizeOptions": [
+                25,
+                50,
+                100,
+                1000
+              ]
+            },
+            "hideExportButton": true,
+            "initiallyExpand": false,
+            "filterByMapExtent": true,
+            "allowTextSelection": true,
+            "syncWithLayers": false
+          },
+          "isOnScreen": true,
+          "gid": "widgetOnScreen"
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.25",
+          "id": "widgets_Splash_Widget_45",
+          "name": "Splash",
+          "config": {
+            "splash": {
+              "splashContent": "<div> </div>\n\t<div align=\"center\"><img alt=\"download.png\" id=\"img_1666013154084\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOYAAADbCAMAAABOUB36AAAA4VBMVEUAAAD/////8AD/+AD/8wD/9AD/9gD/+gD//AD//wDNxQD47gD57ABpYwD87gD26QDx5ADc0AAbGQDGuwBdXQDZzgDk1wC9swBWUQDs7Ozp3AAlIwBPSgDy5QATEQCnngA1MgCLgwCdlAB/eACUjAAsKQB4cQA/PADw8PCxqAAhHwCpogDb29vQ0NC/tABKRgBwagC8vLw4NACtra1DPwAjIABbVgCZmZlfX195eXkmJia3t7dubm4NCwDHvgB1bwA3NzdOTk6JiYkoKChHR0eOjo41NTUbGxtzc3NkZGSGhgA75P+aAAAgAElEQVR4nOV9C5fatta2a8mScLjYMDbEw83GDPGQAJlQ0rRnmCY9pz3t//9Bn7Z8QbJlDJOZnHetb6/VdgrG1mNt7bu2jJ/+vyDjfz2AH0M/Hubbjx/f/vCH/liYHz7/8pfB6a9fPn/4oQ/+cTDff/7FUOiXz+9/2MN/EMwP3wwtfftBk/ojYH74oseY0pcfgfTVYb6vmUcF6atz7yvD/PTvZpBA//707lXH8Zow359l1h86pa8H8+Pv14AE+v3jqw3mtWB+vhZjSp9faTivAvPtBWKnjr69ion0CjDfKktydwG0jvJ/X14B6IvDfPsveciroJU0opwxZ6R88K8XB/rCMN/+VxlvTLCJ7AaUG2piNFM/e2mgLwpTZVfj1qUmJxL0z6F0EVyEgpX68cuy7kvCLEnXBbZMQVa7BEF+FQ5JL8IoLn31klL35WB+Ugf5aDMzJ2x1DD2NTVxcRd2fS99+erHBvRTMj3+oI9y1iSkRCrUonwiWLrLMRen7X1/KYHgZmO9LrqQxZKZKbK1BGVWuOpYv+foyJuCLwCxbA+MeMcukEbhDWrmKdCvs/e0lRvgCMH8rD2yNcGX8IEtvlase3SpKWKHDyuv47f8AzPdlV2sfIM3oMSKbrXLdw9DUvg4yGZXuaPz7uzn3e2H+pzykWDd2TCeRRnnGAdNePKtc+Z//KcwPf5WGc6vjREK9pypGQR0bVZcx5++HypXfF0r5Lpj/LY+lsAhkbrWG9daBYSwTDe9iUrYVuP33P4L5sTwQ2SIoGNCpDrhMYcAqb4d6y8p136FEnw/zX+VRdLpl/iPUrjN/VDocK7xrWWVb4Xsm9LkwP1TGsCmtSozMpLrE6uh23aYl3qUa1+a5E/pMmJVVeZio02GhQG/f1dPCRyrvkm7VJ3/mhD4L5vuygDXW6lQQZt9cCRJoNKCKkauzFf56lsh9DsyKrlwpFgFG7XVVflxG/dlEeWGkV7EVnqVDr4f5rhJhjuQpsOjV3KrSwqUS72Jatfl/v97jvhpmxYJdyhYBIcfq67+W9gNL4o5KXMF4hpV7LcxzFgHn1tlzuVWlftw78W41rnC9JLoO5vtfS497tIuptJhb1XTPpzuPFbKburflr3+9zpq/CmaFYXdmPhSEB+MXBAm0OrkwOlvhKsa9BmYl85NbBJi2dQ7I91NcyN1qXMH476vAfPtn6TGHLEZAqHtJaP151LEpqbMV/rhc4l4Ms2LdpRYBJmj40tyq0j7BKe9qbIWLTYVLYZYzXHsHCW51olfFmFIciFeqsRUujeVeCPPv0u0j8YKxd5kDImi+W0TJcDM4Ho+DTZLEi5srlvPBFs9DlYTM3y8I890f5bt3hGfpXDbGUZh4DmMIEUKslPhfiLZwcJzdnfO5JfIBJ60K3F8vyuZfArPqdHFXGIQsbjd6WqOZhzk+jDmDVwhjiyDUPoaNt7l3wAjRBImMyxboBTA/6e5tJAInPmfaPYZ2t3A5sDu6KdFokmlFRJ3hWY/moQ13QVWlIuiCHEQzzLrMsy0EParVJaFH5CAP0ciqYWHnYIt2N7VIDxhuZPl13zdHrBthltMGJ3JSMa/1R0YbXApkIZj3Tufmhqufw81NB4TXnRLRtZgTlZNFgnbiMtyuF1m/fCfMd7/X3tpYZvZJdcEsAlqJYfXgi/2kxTz+gmirDcq2XwoAYcI0Dk6YBtLIvn4oxp8Ngug8zLdn7synLB1lWW3HPU1E2hoaY4dPx4bZhhEI081dGm7lQou6Jd6dpRYluTs7FuO8RXQWpk7EyuSno1SyQFFXl1sw6Q7Gyzk15BdDUPPQZQvukFevxMyXtXGWT8JBw1jOC9xzMCuB2BJ5hXvi5h8tJlqQfDKm8FJAI9xz3uVvg2LraOy12SJMvYJB7fx+ViPOcy7LGZh6RXIi/zQVxLmHT8Z+OQhZjNw1pjBg6k7T0Qt8htGruTxbCI/SMyznsWFAZxRLPcxKYKseJZdDnBX7wzqQQp2kYpVY4CG307KKkTGoiKr8B12Q4AM5lWQ5TdZhvWKphdlUVhgQeUxghIVEm8gTRLfGBhBZphAwW+HDcexPWq6F+WQOvI9OT1oE1uS+YVBfroVZSR2o9OicpsEiEHzb2CsjdOrms5fyJ0p59jHlWs7Jhn42MQ06xqIHLy8ip/eJe02hpjpLvgZmvVEgaHpCiZn9AAqRWMjeGzuPEQ1Sa2OMWFqAsOKrzufKMeZvBPU1KkVElXZGhztfFPTOrcS5uN2Es8ZQ0MNsKPa97xUPRg5I/zh1sZn/ZEzXk6ptgBbGjJvv/NIFZEYcxi2/cZsgjUrh1tNgZTzlHiaI3JFfsDbuNjk0/74cZgPKZYGSWCK2WGSJMO0lS2M0NJE6p1yduDRYgha0wDzAAPbRYxtjq+QKMRHB7KhgfkyE67UoQmvYPGcM1eLUwfz9/H3m7XwMdAhLberLupIwP7w3RuuAISuHij1j2uLMOg+QiQVMk0y23MCxDGNSvA/uqLjx0jhslHeU2ZJJziIYN8Vkfr8MZgPKVTcbBPXFA1e9Eo9y/9Lnw+2HgwlKR8xF6oJP0g5wZzD5O4JPtsYQfo05xN6Af7BNeqW0mElT92vlZTOMSVNcX4OzCrMB5T4rP0Pt1JMfYV2VBKHO5olP9FPitiltjdMJEV9lMPPx3zHETH+44OrjadCjukqEzMba5RYWOTTg/LMZZgPKcYrKQlkGp6MTrGY2QcEmFCIEFvDSbyFOhIKHggj8zXqcce9nO75ml4thQMvzmBMJMvsnsrJgZlMIqoKzDLNB+oysVKTaWVijU2PC5lAJw8EmAuk4vV9uO3dhHIGIiaJw8XTYz8EC6IeJ12ao7nWJl5oHnXLlgppwluWQcRXKg+C7VIkIlJWaCh3WFrD3z8PjOg6fbg58frejA0ccJUPQgjOtpi3jzO3ZTLnQBresjFOF2WAVdISJZhUJqoNmJemA3hsgkhPgWgpudY9RilAL1mZobM8yRI7z5J+EQrloYnwq/VIPs8HC24GBRjeFo7C/EKVv3CJ8l1UsggiC8Ipl7iA/gWu9FJWIFAhKYBHrgzMS/V0Hs8FaBzM7UyKCbruNzJaOcAbeCd0Yov40g0m9ewgM4HNeikKy7y6USyPOL3qYDZ7XghZKJCXnPEquVJgJM8X2QjmSHtcDT10YrkOgiusBKhYKD80UJTZnSMnOPznIZE2FVf/RwWzwokNqESW0b59lWWS5EYc1xMI7aQsUMNBHj2vBHtTkxULygJeSpw8dxe2q4lSWY8RfY1P+5lMVZkPcJ2TMnssfzOo8RQGyG4GuEKlB7p2MM4Esygi4w8mnoe9lv2dG7qXQTqXwpnRXpVL1fsA0QUWVPpZhvj9/fdxyVFXVOYPSwulrjoSSE95J9k1RRvBUVCwUX1sefDEO6pkE99RBjfzGvTzvVZjvzl89a5X4Y3rmpTM7dfKPWeRRcSqpD4L6eNK34IqmqjBzJTf1upiUy9tCTc5TpXcKzErZlkJJpXrOq5WOOC8T8NJ1BsGu08VZznnknBbhJFUppGDARb25UJWug8F5mH/JML+evTSsJDfuWnWshdt7BaUQpQWDU3ua3eG0tYGmXgo+KcZ92ec5vaVWJRo0bpC3X08wz+9DrOY1lsYyKedIUrKCDMcxny46LhQjtsDV4mwW8PfWyTeqpGqV/7cI9ipxS+kNojdrXWyvIQ72JYfZFJCtkGtyDgv9qtdU2GTrYgLbhZmD/CWEU8BDYcmppIhP4zTdS+YZN0nmY3kVzUKouzD6Sc2+nXP0KYN57e+4oUCQfWPMk54a9ilQntjUGmShdQxa7t6lIFAdjJx9sQhRnqUgPiJ5YcxRTZaJ4EvHg3zw1TCNZ8LspsOezJbGAcI+BVf1Mo6dn6YZ3aVRLeRs08I3LGByDoyg3A/AoKc88CX0T+ZcnnBayByOjPksrW8jDTKnFmaDMqnQOt+jx/mIs9BN0stcKWueXeGflq11L9QJcGmqRjKYWYVaxIfOJ1z2UkjGEiJDgwlrDyHB5BYrBF1dn/PuOTDn0pAwon7YN1YzF1NCcwNCMpD4wrsnJmnzr27SUvgCpmlB1G7LDdue6qUQL3tZCBF/PTamHKMk73Bt0rqO3gqY55OYFSo5FBihYM0ZsjPMLQj5PXAx+kRF0XqSW67eyejPvpCEcTpfqW3TH3Dn7WHml3MW9NqasufA1OTqOGeRY1wUScragG2NDZjc28IeEDCLtwDTfMAzSWZBZKWVidPFpqcJLTSnOl8Apq1R3TgYYpYXvfyceF2KiCViY9zE8eZ5tVQBcyJNTQKV38ZULERMEEXBIM4jd7He7muMkHw/zLnOZFfYaMHxTm+ioedgxgbGFIJ60o9KMLkIFiLFZ6wd2OsFOCE3kZdZlx7Tue7Xrs5nwBxq7BPlsVELmcEg2oFtcn8DkeNdFxMRsIQqL4IgFkTEX+IjrmKARQ8C7DZMvB6hBGe+5fIfKSovvdbrtkVcD/NeZ4VROQwOw4LiLWYGdiGVpsvtYbcI42i9TrgNuuYUxeFd57Bf5pGlaOBOaBHHtApn4U7DPth7ZZiRxr3Hiv8ifY6RmOZp5NvDdRQudjeH8XbPeXq1344ONxx3tB7awXAOV2FF1uCTgRvopnN+Pcxr9KYuCqfGhtvSN+CdgFU39luCR6FOj3EAXfgjZWLW47++9bNkdkHWCabOgSe6ndq19O5aY08bM1AFvGx0c24eIBHSWxTb5BQRZFnA1jNEZ2rFF+pJq0+X6e2+Kkx9rJHKqdXb4ym5nHonpA0yZph9LMHEzOY+S4erVAjlSjUjShBvphMH9aWCGspM9/OhA5l0IPmrVStZDrn+KIxVypnS2KYfA8yU9UWOYmkL+LhfGMKnBE1K2jipVVOMqaO/MpjlWv1aWuirlSpyb5EGIsE7ySIlCGI2IXBuDtMSUZGIpPxBCy8FOaWJSrSBCno5zD8zmA2ZkxPZ2iCNroR0BvUfVFpXGedSnMLENOfXbHay9DzBlZvpNIoICF5KXzOYDamTE+lDUSzzjPaj1SlecTugxDcepSFSdwsyV6SK6AT4VVrFsIzbeZY/pc4iDcvOtbNpXe52/iuDeWlLqppkZubP+4xrCf+USB4FifGkbHgE+9WIOcwu8GtMZHlGt8ag5Z5cyUNAUSudsUn5gYJKMdsz9C2DeWl7Mf0qyZZmWqeI6fE0o1Njo/4irQaDkJlx46jvDCq+Tny4tNNIgbiXfqmwi73rzxnMpkrLnHT2CB+L8A6LqjRldcXlneGCc4Ffy0mEUxGnARUm6UQTEWxea98uaUosFPRbBrOpbDajW30+IY21SWJflpXTUrliphJjog6dL8pTaPLulDDCsFTvtGsFu8aF9CGDeaG1t9MvTQTL8UZ+BakYzWjsSjsxqZdZEv2NJH74x6ck0Ere9SpSLrct7XPNS2G+zcPRl12uNUc49wCkknlUFJoAPeXLEPXuoHKEr7YHIWOyi6msKdXZT128rva5dGtcRkXU/bJ+nHpRkArayqeoJ7UhiTEkAEWIJwajvJ3+iUUpgyllB8JyhwiRP/K1D75Uc/67gHmZ4mzrHpYa7rvqspXnE5YoA37lUwjh6B4Wb6E/YIQmkqWYVIIiYuHrLWnS3MBP0N8FzIs0yrJGa4I+0agaNDKO0kDG/N1PB5wjM2OPr8c5X9KDk9W/fDIWlUcI91q/Wqoy6HGjs3Q/FzCrGmU+riRgbvSCVgxEw1bcVZqgrsxYCxFRLkx3S92+F3GjaVnF84Z/FepfcMVAeCSWJpX0WwGzmqqOWoyZvcA7DtZRJiBivQQSVlc1Age5E6RWnhixKZnuJupKixLq8SQv5UQQgKkR8bQyExMyr8J8X8CsapQZsaB6Ev7FsoSwXkuD0a2baC4g4nQj6+akXKYJtYDXejCXknrfiupK2KpSeQaUnIxqYFYqMQOkKbZ9d0rjVjzOhCZ3cUJ6ttvLAxJHfW7VGhq6XTN5Kp4rfjk/+mBDkKRt0YG8xX8mihL5nbaV9wXMUlMHhiotpXyqqc2UstUVUTtgC6jI86CkLuMtT69PYDY3lTcACk/sO/EhFORJT+/wcVu+NBEhH+2tsGHbmlgTCPJ9DcxKqtNm1aDC3xLMSiLXZjdcZjCAwDIxordohR9fXVKcBbh3kprqQ8onT1lH0jSMfCpCJTd8caKxRne0uGGkhylbtdPVoRNGvqaS77MEs2LV+q09xPbXEPjO3lDdBiBb9xVfN0MkHK9U4xOd781Nog3MoiW+jBCNNCqF82HNbOaKMw7aEDXk/1iagqgPEsyKDHLYHPiV/8rNV7oeJaiv++o8c/57A0J2X+QVkFOtgU3tIPElZ565HaQ7rFQwcd3azD3rGSNQ2dliXSeo1lu8kwtmynvE31jcNxhCZqqQXnW1I21jX9EnfAQreLGyhZoaBBJ1JJeTW/tcJu2m1Wgld8ZqJG0eBu9sZvGis58aOvpVqQsqbfh/FCn+0OPvmLB0cFNRw10lSo1d5as0cxeTFlU+VTZ5jSmTv8wq02blezHfuNM/mlVdsbDCtH8rMOuLSRZx00a7OpqWdgBNy++79MHyO9uaHIYEZKZKnxWYFTvodnV4+idKBraf1Zn3PVtP3nhR+SxVtbeRJ/1IV54eFt973iyNziaVmxlxzZNlY/E2cigh1fawHxSYJZdz1UJM5DksnFeo9FtYTzQcovJHM2O3gSV9HwWMGz6wZ1q/uesQMLC1mLOe8/+bJ1vjWL4Z+9kl2gdL9VILl5trZndd7Z/wkwpTLWe7ZQib3cDmLibKkpfTuopBKzmWxQYXzhtKfdFcZ5W0URYBOk2i9Pddm0I9DHzqIqZRKXRUU9qWh8G3my4XAd0j0oRNvpZglkqjxyLkeujhgg0e9Q4KPK3ib2OR5sQE2SJ9vpOT6DEfDJEN+tRY6Aws/ma5duqXn2MNamR8LmkTitubHedADcz/lGDqwl4JFSUQGdXWXHad0gfcMFplhWoIb5RA48EB+fjGohtZ/Dwm3WyrDdFYW3X1mHkeJUHY5cMcM01y92MJZtVJmQeIyj/UBw90BN5JNgMWHUqLEsKv4KG8gdiILPsP+aZsrZdSBzMTqx2fIdpOFlQD810JZiUeFBKidkTTB7+1z7/N7HwlxMfpSFAGEyPiKX7ULo1aQnuEc9XlMp2iJPsh5npUU3lRbLopYJYCJQOK/Qdje9iFUeZe6ANPGoKSSrGNT041cKaCfy28Fh+MJTY/crt9Ln2f7i7uXbgvxVRTVNMwoJZlbUr+5ucKTHVxwsbTrkii01bmCNQE9jSPXwt/H01kd2Hlsp7QjEsuZtcwmtvYYUjmXBG65l5KjWNboVJo7zAgIKkV+lCBqWrOhAmbn3R7jpuJ/6pTWUNsZCSklMEbQv0TQX6cOWTThQeStWTQ713KF0pN6KcKs/hpP5Vn/Vm7ZLr/VIWpaM7dOr7rjOey+XWxaHgDm8CGsiTNwq/cSgiyGejk1Yal3PSu5+oiS1rKawH2QYu56d8jNW7yVQNTa9YuO3EeFay6gnri3snYl9fIKI2vW9SJBNdyhc7/83McpLWjlnpISHSxFCCZse1ALdUE3qbfUjeYa7bblMuDHkdh4vaAcTNrb3ShBEShIcd5+hCc5eLITLseLdyAmwdBDJO9TXqiaTRqq1Gdszt5CsKZsX1gOIq7bLvocntPxfBeA1OJe/UxgfJCvpzaZl50eBnToq7SrxI20GJkeYJZb7ipA1v33oA+SY0fWzSApK48/Uvv3N6inPJCsBkEKWLkIc4uanTor590MJUNf8QkzAnIcG7YLLPVaoJBChG1qxj3nGGbdQzac7V2WLYR440pegcIU3Ya+tx6L7WW6zjNKyQPBR0hWBURi7llH+i/WphK7N2F6NETFNgn+U6s5g2ImG6UaKXHCDdPQGHeCzDimgymmXa1msN1M3Ci1FNCKkmjCuWlQQFEcYYkqO6f/6iFqaiUhHEGWDEHNsFlMZeasLsE0lXs14QyktruHdsqCmolmCB7SdrttbPBlAWyH/OY1O0oz2FmiwMTmBWm6W7xkx6mHCkJRbC9a02NfSsrVmuQQdRRBEmIW4EIPGyHSitzBaZ4OXiQCSfaGshqaG6fXaJZCuUBSj2jriap+0sNTFmlHBhYiD4UMuSiti62J8jCimY+BNYa3u9tFBRbDqB5IEGUvzTIWWTl0+K31JnBxcuop0YgD9rDOLIfZTy2aMHNuM3mbyI1GP2pBqasUpakzf99FLG9VsZMNXF3AUFJuS0HtnjinU0hFgDgGJ0E9iaJwsUBSn7CKNl4QY8xLs8hNkCYG8LUHzaBMtb6hVLE3KH1ZFsExahqu7+tgal4KT2oWV2soStenC25uP7dKlWYN0IrjoaEMWa1fXsYLW4qXZGzF9JZzIZ28IZQ/iLScFEYSV6NvkZHwMzuGIhMVn8XbXysSGulZYcCU+Zat5XK54Vt5jmx1ZnFKZXZA8aHpEf8wWwxliXvqnMXJwkkLJJ1/HQzl+GOFjObW0vCCT+9kn4t/+Re15b2RJul9HIZ5udamDLXPsBouQAEpsqrV3V15/ljJ/Kgd/+MCmGy3C7iZOA6FqOiUBiDcBRxci48vAEHvC/eRf8Qh2KFZNaCrrI+pTxPF8EcJMJZKWXD3tfCVIPvY7HTjSv3gGWKt56FcrcokZ61PISzo/8GzClJ3oBlf1IoqVQib2DmDxJjxy7M9W398/IiLxdSPA7jj71pKdGDP36qhyn51tM2V9kUikWNOOtlc9axh+m8awu5fj9erO2Ae6uwG6Vy4RtVoWS/tjhaSqBf7RZYr8+gTqp+MnPmeWQWZzwEj01UA+zzGZgy1/KVMhjFsIdticyM+8/Ze2jmMrQxVv4EU9GQtoa0MCW0CDvu1PAI7YX1k5lbeiHsvwrFbsiAKVz79gxMmWsXIFT2FF6bnyf/tD5nOhPmZBIEzuCwbmVK4hkwBUqQuYuOzW/WtgRD6K7MewMMaAzJWL5gHmhbRvnrT+dglktnFgh2DNk5Pyyrp/QgFGzi3SoXdtPp4/zABaodYKofoR4mlDm88Y/r8Gm0PCVt+uO76NijlX1iRXSrbVp+1AX7JVbzJ5/PwizvSeli0lskpIjZqAEhLobtsLYl3Cg+6nayaWBy68AZhrU917aRz1Q2yrPSc4cJE2i4Mzym7Bx7exZmKY7pEWcmbpSLfLmcC6PmbufjtVNueFSGyb1RP2pqnzdPTNk2yTXcwXj8xzO5rET8Vcn2cENbJDVUElE0M9ZUbtNxUp2i0PAC2s8mypwqMIWVd9mpG1L7xDxC+zMT51p1hm1GiGLplfu9l2HK0fcbVt0qmYfd0o0yF9J2HZyQnmDy5ejGNVaghh6L3DfJ4oMLaKKezA3B14rrUG4+XGlZJgX47qiompqGm+O6WDhp1Sdyrzz4ZB9x5hK7OgGmBcK5Z4eXYxR0k57yQAphc7s2OVC7Ug/+tYyqAlOOIYh9mQmCPmq5XZvuLNE3WG+i7WI98HzOXK43nD3Nn3ML0StB2Qj3j0MJ80vrp3IOV7XPnnQ1uLsBslAANk2Os8257YozCF6YuOYmpXYrBw9j2lMyqJWG2VWY6jE93BoRPBEidnLHUHmb6PYpTja257qePeA+ZWf73DKC5fgpnA0Htgu3Gq7DTjn/zGGiYr3cjvlzvYC/eKzsjase8VOFqZQhdFgeLB7SfIOLg03Z4BitfZxFA4AssYXRMr3Ztf0JOolvEnS6FSxgREwvkqCO2Kke+QgdCwVZbfW0q2q37CpMJV47y3PyxorlsZIneuKb/TC3AGBYnHBu5WFulA7qzqOsUgjqL/9pca/sRsEs14ncqM7nbQuV/hOPuzajkiT7q4pJA1M2+IaiIG3B5eycFcWqnmWmrllHHJsEUrPb8+3jYDg42q7TwxSlpqiFrMEFynUZeiKjkpq0Zs/x4F7Hox30QDpDep8OhAeaoFPLoJsAcsK6F6k5JEUDUzb4Ithkum5twCki+YcPRPSb2nsUgji9QVxaQf1Vh3uaE9G51UL4eHZO70MPIVGowAJwOh+UMqTp6imyuXXM+XP4CFVthTXbWRkdG9LUUaVuSdPJXgNT3gE4Yt1HY07IreHT0+azGeJsO2OWxdmpvvtvf7FxgBG5FVBn+e4jH+YRWr0mZzaeHhKHYoLvOMsWhcGizcnDBtLUQ/Ut6/oq62DKqtOHMhTwUG6dqchmCeLPs4iFms/UeogCMVeIcD/mSca6X8wGE8GRiHjNdkLHpdCIqfAhbiBOH8H+9C5CLWUcusMrdTBl1bnlLr1HMIK/73o5x0Dpp7W5zBBaxi7MqWgSQHuBz1+b77QZE8sXZnqhLyos09jFUgCxA2W6aUJ8EagmqRaR7kNZCC0oXxftWd/YutRq5QozpqL6+0Jaxnz9WZlABmMvF6H4GF6GEYjDLFr1JK0EZINFRZ31XL5Me6CjFqbidXa64AZMB/yeUqjYIyZtPvX2RP3FwIHuDSKyZ3HzkRF/eFWrmAEyWS5luT+IgqWxc/igjiWG1x6loYVZ7dQ24+MzFVg9bNIrbb7H0SKeJVxyrKN/Fpfu8Mop4sgKkz2AnpokhMQZIlQxub5qAelhlmq+FhNksUQV3CLK9zLnM15CHSZH9peYDLmZDbJ/XeqcqD8vRA/zJ/lkxn7AWcOuFDcuWJEXn3fC9ZCbtL7vet4gmYWd/fOKcPvbXbweHrlxDLc6JlyPpm/yweJmq8SdB4o6Q0p6XMQ+KJOpsYDOwFRCXy4LTux5VxQAJlR0awztHkk9yZNRS1E3uG7lpavXRPRkHad3siaDnbCjkZKnjRm5vbMIKjv3NcfE1cBUUrpbaVHOGCok7JH7Km7dsRlQvOCKZPQlNF77Urt79UYWbfuWlKRxjvDSh7Rt3AaIlfpW1sGp+bym87DNrZFC3hkuEeWRIlALgbF220z7AGICyI0AAAm7SURBVGXRdg7VvwDpeOZkZruwakEcd9ttkS/M7oSlnrtHAsn8W8MFr2LdUnmm7qSQOpjaRq5zhyAvZCf2EW27cDCI7k7ld/djbtEOfMzECAFpfA7pduYIHwdqpE1/MAsPJ2f14bCIBiLSfwpXhC2zC70H7I6DBmmJkUR1Z6zWwdR1/+xYonVBgk7uZkBqt6xv44FDoKsiWHo1zudNIuw906JWsKkL1G4sOSjzM3cY3N2Ae0EcfHll6o/POAezuqczolnvKUe6PcdJ67fF3i6OWCAlrO0lcixgv4uHbupiEtrd7Or7dXIJoHYVjigxn4wI0nWoFKWoPYu9FmZlF+CRO+npnMzk095dlB/+UEO7YyqlcJrTRG+g0DTNs4BLSrvDs0coeBxladK2EwTVLR27Vd4SVgum/ptSDZ+PsJ+9O1s5OMympq6YXqJ+URRUCkdjRI/n3e57h5xMvBMNmOgVWrZO6g8drYdZ2rOxo3lhZ4eqZdNcf1q9hkNn5usgN95TmNwhp6bX1IX1AAETnUm5sIjGpD6Dpf6rUkcWvjTF27sjuNRiKoSDNBuDIcvF0G1zdJCUt7Bjzw6NllLI3ffTC1R8mXmAWmWz+MzBjWdglqv8j3TyIA4Ly85dOQEbdS2zuqFHT7Cl6sLw5oaZUpl+3zEjGemwkt04c5zhGZgVE8FHBGpXu0JkxG12iprcu3yBenE0SxvodVbP3le274Qx3GUW/RMgLEf3HS5YreSMs3DuHOtzMCsmgscQpUeYi1mXi3MmCboZhL8y4hdxk+Ef7VmaZ2geHh0M+emMMGnLYe8NacOhQMdaKXDu+PVzMKvdr/b/3HGQ/QQj1LbV/sZjtTYUQsX+rOmUKOnnCZxuoxi1sp56ujNWjKziNncvbb0COnvU6FmYWovvNiGiYN9DpV2ECSuZ3two8ONL1uEyCippbWJK1moM7fN9qLkNa089f/bBlLqeLPsNt1wwGJNM7L4fS69261cKajhSryFN+xD71dQ9VtvvuwIhxdB9AXM7v2IXnLHzLoBZ3Tl2ZKjrIbwzBmmPZ0exK0PNGaOQdF/XnYl1kwQaTw6LxnwSJcIg6aI4oXRnhBNNc5nzxzqfh6k5h2q4BvakHBCo5yEpdUCZWbrOroRhL1HDP4/jMHFJtUgEQJZb7fGJhHeacKlEanq2Vs/UugZmTZuvGSPCbN4xqcVqSv010VYtQSdhPIHsCGcJ2+1ZVH/YFKbqXIWiHI9CZmPPzG5dALzWaL8IZt2xYjGBbYV9yIOBILqX9fZ01q49iLOwguq+Z77KkBsmdrGiFvyPWzlCI6eGyWyEWTOdIwSpXJc4tkg32j118YWB7ni3lOqrvPgqLimL+z7Ywgg5cHQDNC+jNVqzYTIbYSoxvhMdYRtPRNnYBhEUMlYWCqMhrinJr4EJGzkiNbK8c0yOehVxjYrT7X1dpA/118TzroCpnc5HgmbGFvGZDGhoPFjapz8NTJ2E0cEEjOvKsrMwTkNAq2iCRb/oZKI3rZomsxlmpcGFoBt2azigUnr0yQiIo7uG0y4JKsfaVaq8CEVepBMtPu6SLN1428X4ntuDehX8RyOIZpj61bk0Bghaz7Xpdo1oZtT9s65WMz0uhn4b0VNlbQFTtHEnE29W19d7QNdDigJxyxHF9Qc6N07mBTDrhK3Y1TA1UYgyC6HvUMrQRjeY1S4aeL20xzlXDZYoBw/sJD5op2ecviwIxkTUSj2ikJE6ZfJ7M4YLYNa1yASvHrqq5kdBDFF7NiCoVx+9mq7GowMcPzDazmsvOhwpa4n9mAvKF8MNyWK0s1qbsXkyL4F5rtvgCvRGhkuY1vMeiKOrz/IoaOdzV4wLabIFowAbD7ZF8PmY2nlr9nKYZ1qBjij0Q07JJu0HCPoHxq7Vq7bNuIgcarXXS+PJElkoho+ImpADnpwx/89bs5fDPHMw1UOvKOYDKYE7xpPjcw9YbOB6vD6GMLBE+p/zKySBeiYRqmrYPhNp+noJgotgnjsyLkfZh2NuMYTb5sYkLY8KUZ1tVqZOGKfTv2fZNn8fTlB1id90TPX5oMF1MMtdkzS0b7lLY9TGEFQd0TSP7XHFStsNUcr5XRJALxuW8r5N0q0XIWIrLtSaD1c4GzS4EmbzsQw3rPUz6BSInCRERDgfTRStUCqIH+zZ063Mw/fj3SJOhvahxRFavm3idGtih6YJjCkV7dKbO0RrSw2eCbO5i/YciW1FN2AqTNLToXaU7u9QmksfItKKg1aLUdL2YS9EiwlqdRxL9OBd5BWeQXZKF+Mwn1qNMOsyfc+D2dyQ2EYm584BIcYKJsKAvyfGGtlQ93bPbSB0cHEXhAphB5hwcarG3c+DtEh9nMNcIBF8OSC2NLbN1clnYrPPgHlBb1eXzxQhdGjEKJWWmCSGhyLLguo312ylitW4dciRs+Ob7GcxmEXGjY9yu7gLHWxjjC46bqA+a/I8mBc0Xl4EfKYGEDgR89NBbMQt+06vBYhjvsxSmNwYPhr/oHyX8AhZA9dExMutYY476dJysr2GLh79pRde0hV9OQYtPky15oa0jUeK5n7rNqRexIVmQAaHw2EBVap3CCfDo+e/mRtcSDFGcJJHOh9NE1U39+vpAjPvSphNp7CfqMPIYM5tUc6zB2oaHhsFrHPkMxlg2J+LSJhaT0IEjUDtzKcJJWYeEUtYc8ljShfY7FfDbDhWVqIhQ6hHMLnl2s/hsmnI/w3ut4MD23PbCD8ZD8xK4sVhP4d1Czn+mGGcgZtfHKu/xMy7FublJ1AYN55JKbQBS/gyHBKMQgNz+emkVTxQgNynxcEtN1S0Ll9QrOsue46qlfsvAfOaM42mW8GCHp1Bl2LLWDHr1pikMG9AZZx2ut/j9M8dX8DXwbxQmVwJ8+IjKE4UtJ5go9mazxV0r0qz3AOL9Y0emY2ewmg92BoBu0h3VOhSZXItzCtO+8lpCnXNvTkXK1xBtLHZ7XZNAvXzDhxSDjLozphtrjzMLqNrRn7VxR+04a9LaDGIYTOoSIGa4L747cAFO2gxf+Yd/7hc/lwLk9vwny4XRFp6fIYTWqW/P11msT8XJtCHz+fPf35l+vqfq+bx2TD/h1C/fn4GxO+ACfT+ty/6zMOr0K9ffrsoTvDiMAV9+PTt1ef167dPH67Qka8BU9Dbj5+/fL1e2zTSX1+/fP54pbDR04vAzOjtx0/ffvn9JfD9/su3Ty+DL6OXhJnT2/cfPn7+9uXrn1dN8F9/fv3y7fPHD+9fEl5OrwFTpndvOegPHz5+/Pjbb799EnT672/8448fOLC3775z7TXRa8P8P0L/n8D8f0UhU9IBTIVLAAAAAElFTkSuQmCC\" /><br /></div><div align=\"center\"><font size=\"4\">Selamat Datang di Portal Blok Migas Indonesia Tahun 2019</font></div>",
+              "requireConfirm": false,
+              "confirm": {
+                "text": "",
+                "color": "#ffffff",
+                "transparency": 0
+              },
+              "showOption": true,
+              "confirmEverytime": true,
+              "contentVertical": "top",
+              "size": {
+                "mode": "percent",
+                "percent": "75%",
+                "wh": {
+                  "w": 600,
+                  "h": 264
+                }
+              },
+              "background": {
+                "mode": "color",
+                "image": null,
+                "type": "fill",
+                "fileName": "No%20file%20chosen",
+                "color": "#485566",
+                "transparency": 0
+              },
+              "button": {
+                "color": "#518dca",
+                "transparency": 0,
+                "text": "OK"
+              }
+            }
+          },
+          "inPanel": false,
+          "hasConfig": true,
+          "supportMultiInstance": false,
+          "hasVersionManager": true,
+          "isController": false,
+          "isThemeWidget": false,
+          "mirrorIconForRTL": false,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasUIFile": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "keepConfigAfterMapSwitched": true,
+          "label": "Splash",
+          "manifest": {
+            "name": "Splash",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "inPanel": false,
+              "hasConfig": true,
+              "supportMultiInstance": false,
+              "hasVersionManager": true,
+              "isController": false,
+              "isThemeWidget": false,
+              "mirrorIconForRTL": false,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasUIFile": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "keepConfigAfterMapSwitched": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/Splash/",
+            "amdFolder": "widgets/Splash/",
+            "url": "/webappbuilder/apps/6/widgets/Splash/",
+            "i18nLabels": {
+              "en-us": "Splash"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/Splash/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/Splash/images/thumbnail.png",
+            "support2D": true,
+            "support3D": true,
+            "label": "Splash"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/Splash/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/Splash/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/Splash/",
+          "amdFolder": "widgets/Splash/",
+          "visible": true,
+          "isOnScreen": true,
+          "gid": "widgetOnScreen"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "top": 5,
+            "left": 7,
+            "relativeTo": "map"
+          },
+          "version": "2.25",
+          "id": "widgets_ZoomSlider_Widget_46",
+          "name": "ZoomSlider",
+          "inPanel": false,
+          "hasUIFile": true,
+          "hasConfig": false,
+          "supportMultiInstance": false,
+          "isController": false,
+          "isThemeWidget": false,
+          "hasVersionManager": false,
+          "mirrorIconForRTL": false,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "keepConfigAfterMapSwitched": true,
+          "label": "Zoom Slider",
+          "manifest": {
+            "name": "ZoomSlider",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "inPanel": false,
+              "hasUIFile": true,
+              "hasConfig": false,
+              "supportMultiInstance": false,
+              "isController": false,
+              "isThemeWidget": false,
+              "hasVersionManager": false,
+              "mirrorIconForRTL": false,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "keepConfigAfterMapSwitched": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/ZoomSlider/",
+            "amdFolder": "widgets/ZoomSlider/",
+            "url": "/webappbuilder/apps/6/widgets/ZoomSlider/",
+            "i18nLabels": {
+              "en-us": "Zoom Slider"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/ZoomSlider/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/ZoomSlider/images/thumbnail.png",
+            "support2D": true,
+            "label": "Zoom Slider"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/ZoomSlider/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/ZoomSlider/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/ZoomSlider/",
+          "amdFolder": "widgets/ZoomSlider/",
+          "configFile": "widgets/ZoomSlider/config.json",
+          "isDefaultConfig": true,
+          "config": null,
+          "visible": true,
+          "isOnScreen": true,
+          "gid": "widgetOnScreen"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "top": 149,
+            "left": 7,
+            "relativeTo": "map"
+          },
+          "version": "2.25",
+          "id": "widgets_ExtentNavigate_Widget_47",
+          "name": "ExtentNavigate",
+          "inPanel": false,
+          "hasUIFile": true,
+          "hasConfig": false,
+          "supportMultiInstance": false,
+          "isController": false,
+          "isThemeWidget": false,
+          "hasVersionManager": false,
+          "mirrorIconForRTL": false,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "keepConfigAfterMapSwitched": true,
+          "label": "Extent Navigate",
+          "manifest": {
+            "name": "ExtentNavigate",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "inPanel": false,
+              "hasUIFile": true,
+              "hasConfig": false,
+              "supportMultiInstance": false,
+              "isController": false,
+              "isThemeWidget": false,
+              "hasVersionManager": false,
+              "mirrorIconForRTL": false,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "keepConfigAfterMapSwitched": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/ExtentNavigate/",
+            "amdFolder": "widgets/ExtentNavigate/",
+            "url": "/webappbuilder/apps/6/widgets/ExtentNavigate/",
+            "i18nLabels": {
+              "en-us": "Extent Navigate"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/ExtentNavigate/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/ExtentNavigate/images/thumbnail.png",
+            "support2D": true,
+            "label": "Extent Navigate"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/ExtentNavigate/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/ExtentNavigate/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/ExtentNavigate/",
+          "amdFolder": "widgets/ExtentNavigate/",
+          "configFile": "widgets/ExtentNavigate/config.json",
+          "isDefaultConfig": true,
+          "config": null,
+          "isOnScreen": true,
+          "gid": "widgetOnScreen"
+        }
+      ],
+      "panel": {
+        "uri": "jimu/OnScreenWidgetPanel",
+        "position": {
+          "relativeTo": "map"
+        }
+      }
+    },
+    "map": {
+      "3D": false,
+      "2D": true,
+      "position": {
+        "left": 0,
+        "top": 40,
+        "right": 0,
+        "bottom": 0
+      },
+      "itemId": "8230abfd5e114572a7d1fd1f1791791e",
+      "mapOptions": {},
+      "id": "map",
+      "portalUrl": "https://geography-ui.maps.arcgis.com",
+      "appProxy": {
+        "mapItemId": "3eee208e442448a9ab48beb7578e9155",
+        "proxyItems": []
+      },
+      "mapRefreshInterval": {
+        "useWebMapRefreshInterval": true
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/PlateauTheme/panels/FoldablePanel/Panel",
+        "position": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "zIndex": 5,
+          "relativeTo": "map"
+        }
+      },
+      "widgets": [
+        {
+          "uri": "widgets/Legend/Widget",
+          "version": "2.25",
+          "id": "widgets_Legend_Widget_18",
+          "name": "Legend",
+          "index": 2,
+          "mirrorIconForRTL": true,
+          "isController": false,
+          "isThemeWidget": false,
+          "hasVersionManager": false,
+          "inPanel": true,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasConfig": true,
+          "hasUIFile": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "keepConfigAfterMapSwitched": true,
+          "supportMultiInstance": true,
+          "label": "Legend",
+          "manifest": {
+            "name": "Legend",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "mirrorIconForRTL": true,
+              "isController": false,
+              "isThemeWidget": false,
+              "hasVersionManager": false,
+              "inPanel": true,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasConfig": true,
+              "hasUIFile": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "keepConfigAfterMapSwitched": true,
+              "supportMultiInstance": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/Legend/",
+            "amdFolder": "widgets/Legend/",
+            "url": "/webappbuilder/apps/6/widgets/Legend/",
+            "i18nLabels": {
+              "en-us": "Legend"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/Legend/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/Legend/images/thumbnail.png",
+            "support2D": true,
+            "label": "Legend"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/Legend/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/Legend/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/Legend/",
+          "amdFolder": "widgets/Legend/",
+          "configFile": "widgets/Legend/config.json",
+          "isDefaultConfig": true,
+          "config": {
+            "legend": {
+              "arrangement": 0,
+              "autoUpdate": true,
+              "respectCurrentMapScale": true
+            },
+            "layerState": {},
+            "syncWithWebmap": false
+          },
+          "visible": true,
+          "panel": {
+            "uri": "themes/PlateauTheme/panels/FoldablePanel/Panel",
+            "position": {
+              "top": 5,
+              "right": 5,
+              "bottom": 5,
+              "zIndex": 5,
+              "relativeTo": "map"
+            }
+          },
+          "isOnScreen": false,
+          "gid": "widgetPool"
+        },
+        {
+          "uri": "widgets/LayerList/Widget",
+          "version": "2.25",
+          "id": "widgets_LayerList_Widget_19",
+          "name": "LayerList",
+          "index": 3,
+          "keepConfigAfterMapSwitched": false,
+          "isController": false,
+          "isThemeWidget": false,
+          "hasVersionManager": false,
+          "mirrorIconForRTL": false,
+          "inPanel": true,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasConfig": true,
+          "hasUIFile": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "supportMultiInstance": true,
+          "label": "Layer List",
+          "manifest": {
+            "name": "LayerList",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "keepConfigAfterMapSwitched": false,
+              "isController": false,
+              "isThemeWidget": false,
+              "hasVersionManager": false,
+              "mirrorIconForRTL": false,
+              "inPanel": true,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasConfig": true,
+              "hasUIFile": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "supportMultiInstance": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/LayerList/",
+            "amdFolder": "widgets/LayerList/",
+            "url": "/webappbuilder/apps/6/widgets/LayerList/",
+            "i18nLabels": {
+              "en-us": "Layer List"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/LayerList/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/LayerList/images/thumbnail.png",
+            "support2D": true,
+            "label": "Layer List"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/LayerList/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/LayerList/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/LayerList/",
+          "amdFolder": "widgets/LayerList/",
+          "configFile": "widgets/LayerList/config.json",
+          "isDefaultConfig": true,
+          "config": {
+            "showTitle": true,
+            "showBasemap": false,
+            "showLegend": true,
+            "expandAllLayersByDefault": false,
+            "contextMenu": {
+              "ZoomTo": true,
+              "Transparency": true,
+              "SetVisibilityRange": true,
+              "EnableOrDisablePopup": true,
+              "ControlLabels": true,
+              "MoveupOrMovedown": true,
+              "OpenAttributeTable": true,
+              "DescriptionOrShowItemDetailsOrDownload": true
+            }
+          },
+          "visible": true,
+          "panel": {
+            "uri": "themes/PlateauTheme/panels/FoldablePanel/Panel",
+            "position": {
+              "top": 5,
+              "right": 5,
+              "bottom": 5,
+              "zIndex": 5,
+              "relativeTo": "map"
+            }
+          },
+          "isOnScreen": false,
+          "gid": "widgetPool"
+        },
+        {
+          "name": "BasemapGallery",
+          "version": "2.25",
+          "uri": "widgets/BasemapGallery/Widget",
+          "config": {
+            "basemapGallery": {
+              "mode": 1,
+              "basemaps": []
+            }
+          },
+          "index": 4,
+          "id": "widgets_BasemapGallery_Widget_36",
+          "supportMultiInstance": false,
+          "isController": false,
+          "isThemeWidget": false,
+          "hasVersionManager": false,
+          "mirrorIconForRTL": false,
+          "inPanel": true,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasConfig": true,
+          "hasUIFile": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "keepConfigAfterMapSwitched": true,
+          "label": "Basemap Gallery",
+          "manifest": {
+            "name": "BasemapGallery",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "supportMultiInstance": false,
+              "isController": false,
+              "isThemeWidget": false,
+              "hasVersionManager": false,
+              "mirrorIconForRTL": false,
+              "inPanel": true,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasConfig": true,
+              "hasUIFile": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "keepConfigAfterMapSwitched": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/BasemapGallery/",
+            "amdFolder": "widgets/BasemapGallery/",
+            "url": "/webappbuilder/apps/6/widgets/BasemapGallery/",
+            "i18nLabels": {
+              "en-us": "Basemap Gallery"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/BasemapGallery/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/BasemapGallery/images/thumbnail.png",
+            "support2D": true,
+            "label": "Basemap Gallery"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/BasemapGallery/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/BasemapGallery/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/BasemapGallery/",
+          "amdFolder": "widgets/BasemapGallery/",
+          "visible": true,
+          "panel": {
+            "uri": "themes/PlateauTheme/panels/FoldablePanel/Panel",
+            "position": {
+              "top": 5,
+              "right": 5,
+              "bottom": 5,
+              "zIndex": 5,
+              "relativeTo": "map"
+            }
+          },
+          "isOnScreen": false,
+          "gid": "widgetPool"
+        },
+        {
+          "name": "Filter",
+          "version": "2.25",
+          "uri": "widgets/Filter/Widget",
+          "config": {
+            "taskOper": "OR",
+            "groupByLayer": false,
+            "zoomto": true,
+            "zoombackto": false,
+            "allowCustom": false,
+            "allowResetAll": false,
+            "allowTurnOffAll": false,
+            "filters": [
+              {
+                "layerId": "df8f59deab264bb6b008191c41c05f4e",
+                "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Web_Map_Blok_Migas_2019_WFL1/FeatureServer/1",
+                "name": "Blok Migas 2019",
+                "filter": {
+                  "logicalOperator": "AND",
+                  "parts": [
+                    {
+                      "fieldObj": {
+                        "name": "BLOCK_NAME",
+                        "label": "BLOCK_NAME",
+                        "dateFormat": "",
+                        "shortType": "string",
+                        "type": "esriFieldTypeString"
+                      },
+                      "operator": "stringOperatorIs",
+                      "valueObj": {
+                        "isValid": true,
+                        "type": "unique",
+                        "value": ""
+                      },
+                      "interactiveObj": {
+                        "prompt": "Nama Blok",
+                        "hint": "",
+                        "cascade": "all"
+                      },
+                      "caseSensitive": false
+                    },
+                    {
+                      "fieldObj": {
+                        "name": "OPERATOR",
+                        "label": "OPERATOR",
+                        "dateFormat": "",
+                        "shortType": "string",
+                        "type": "esriFieldTypeString"
+                      },
+                      "operator": "stringOperatorIs",
+                      "valueObj": {
+                        "isValid": true,
+                        "type": "unique",
+                        "value": ""
+                      },
+                      "interactiveObj": {
+                        "prompt": "Perusahaan Operator",
+                        "hint": "",
+                        "cascade": "all"
+                      },
+                      "caseSensitive": false
+                    }
+                  ],
+                  "expr": "",
+                  "displaySQL": ""
+                },
+                "icon": null,
+                "enableMapFilter": true,
+                "autoApplyWhenWidgetOpen": true,
+                "collapse": false,
+                "symbol": {
+                  "color": [
+                    0,
+                    0,
+                    128,
+                    128
+                  ],
+                  "size": 18,
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "type": "esriSMS",
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "color": [
+                      0,
+                      0,
+                      128,
+                      255
+                    ],
+                    "width": 0.75,
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid"
+                  }
+                }
+              }
+            ]
+          },
+          "index": 6,
+          "id": "widgets_Filter_Widget_48",
+          "keepConfigAfterMapSwitched": false,
+          "hasVersionManager": true,
+          "isController": false,
+          "isThemeWidget": false,
+          "mirrorIconForRTL": false,
+          "inPanel": true,
+          "hasLocale": true,
+          "hasStyle": true,
+          "hasConfig": true,
+          "hasUIFile": true,
+          "hasSettingPage": true,
+          "hasSettingUIFile": true,
+          "hasSettingLocale": true,
+          "hasSettingStyle": true,
+          "supportMultiInstance": true,
+          "label": "Filter",
+          "manifest": {
+            "name": "Filter",
+            "type": "widget",
+            "platform": "HTML",
+            "version": "2.25",
+            "wabVersion": "2.25",
+            "author": "Esri R&D Center Beijing",
+            "description": "",
+            "copyright": "",
+            "license": "http://www.apache.org/licenses/LICENSE-2.0",
+            "properties": {
+              "keepConfigAfterMapSwitched": false,
+              "hasVersionManager": true,
+              "isController": false,
+              "isThemeWidget": false,
+              "mirrorIconForRTL": false,
+              "inPanel": true,
+              "hasLocale": true,
+              "hasStyle": true,
+              "hasConfig": true,
+              "hasUIFile": true,
+              "hasSettingPage": true,
+              "hasSettingUIFile": true,
+              "hasSettingLocale": true,
+              "hasSettingStyle": true,
+              "supportMultiInstance": true
+            },
+            "category": "widget",
+            "folderUrl": "/webappbuilder/apps/6/widgets/Filter/",
+            "amdFolder": "widgets/Filter/",
+            "url": "/webappbuilder/apps/6/widgets/Filter/",
+            "i18nLabels": {
+              "en-us": "Filter"
+            },
+            "icon": "/webappbuilder/apps/6/widgets/Filter/images/icon.png?wab_dv=2.25",
+            "thumbnail": "/webappbuilder/apps/6/widgets/Filter/images/thumbnail.png",
+            "support2D": true,
+            "label": "Filter"
+          },
+          "icon": "/webappbuilder/apps/6/widgets/Filter/images/icon.png?wab_dv=2.25",
+          "thumbnail": "/webappbuilder/apps/6/widgets/Filter/images/thumbnail.png",
+          "folderUrl": "/webappbuilder/apps/6/widgets/Filter/",
+          "amdFolder": "widgets/Filter/",
+          "visible": true,
+          "panel": {
+            "uri": "themes/PlateauTheme/panels/FoldablePanel/Panel",
+            "position": {
+              "top": 5,
+              "right": 5,
+              "bottom": 5,
+              "zIndex": 5,
+              "relativeTo": "map"
+            }
+          },
+          "isOnScreen": false,
+          "gid": "widgetPool"
+        }
+      ],
+      "groups": []
+    },
+    "mobileLayout": {
+      "widgetOnScreen": {
+        "widgets": [
+          {
+            "uri": "themes/PlateauTheme/widgets/HeaderController/Widget",
+            "position": {
+              "left": 0,
+              "top": 0,
+              "right": 0,
+              "height": 40,
+              "relativeTo": "browser"
+            },
+            "version": "2.25"
+          },
+          {
+            "uri": "widgets/Scalebar/Widget",
+            "visible": true,
+            "position": {
+              "left": 25,
+              "bottom": 25,
+              "relativeTo": "map"
+            },
+            "version": "2.25"
+          },
+          {
+            "uri": "widgets/Search/Widget",
+            "visible": false,
+            "position": {
+              "left": 55,
+              "top": 5,
+              "relativeTo": "map"
+            },
+            "version": "2.25"
+          },
+          {
+            "uri": "widgets/Coordinate/Widget",
+            "visible": false,
+            "position": {
+              "left": 200,
+              "bottom": 20,
+              "relativeTo": "map"
+            },
+            "version": "2.25"
+          },
+          {
+            "uri": "widgets/OverviewMap/Widget",
+            "visible": false,
+            "position": {
+              "right": 0,
+              "bottom": 0,
+              "zIndex": 1
+            },
+            "version": "2.25"
+          },
+          {
+            "uri": "widgets/HomeButton/Widget",
+            "visible": true,
+            "inPanel": false,
+            "position": {
+              "left": 7,
+              "top": 75,
+              "relativeTo": "map"
+            },
+            "version": "2.25"
+          },
+          {
+            "uri": "widgets/MyLocation/Widget",
+            "visible": true,
+            "inPanel": false,
+            "position": {
+              "left": 7,
+              "top": 110,
+              "relativeTo": "map"
+            },
+            "version": "2.25"
+          },
+          {
+            "uri": "widgets/AttributeTable/Widget",
+            "visible": false,
+            "version": "2.25",
+            "position": {
+              "relativeTo": "browser"
+            }
+          },
+          {
+            "uri": "widgets/Splash/Widget",
+            "visible": false,
+            "position": {
+              "relativeTo": "browser"
+            },
+            "version": "2.25"
+          },
+          {
+            "uri": "widgets/ZoomSlider/Widget",
+            "visible": true,
+            "position": {
+              "top": 5,
+              "left": 7,
+              "relativeTo": "map"
+            },
+            "version": "2.25"
+          },
+          {
+            "uri": "widgets/ExtentNavigate/Widget",
+            "visible": false,
+            "position": {
+              "top": 149,
+              "left": 7
+            },
+            "version": 2.3
+          }
+        ]
+      },
+      "map": {
+        "position": {
+          "left": 0,
+          "top": 40,
+          "right": 0,
+          "bottom": 0
+        }
+      },
+      "widgetPool": {
+        "panel": {
+          "uri": "themes/PlateauTheme/panels/FoldablePanel/Panel",
+          "position": {
+            "top": 5,
+            "right": 5,
+            "bottom": 5,
+            "zIndex": 5
+          }
+        }
+      }
+    },
+    "loadingPage": {
+      "backgroundColor": "#508dca",
+      "backgroundImage": {
+        "visible": false
+      },
+      "loadingGif": {
+        "visible": true,
+        "uri": "configs/loading/images/predefined_loading_1.gif",
+        "width": 58,
+        "height": 29
+      }
+    },
+    "wabVersion": "2.25",
+    "isWebTier": false,
+    "httpProxy": {
+      "useProxy": true,
+      "url": "https://localhost:3344/proxy.js"
+    },
+    "dataSource": {
+      "dataSources": {},
+      "settings": {}
+    },
+    "appItemId": "d7a57556151547008572e707e50453eb",
+    "logoAlt": "",
+    "logoLink": "",
+    "configWabVersion": "2.25",
+    "mode": "config"
+  }
+}
